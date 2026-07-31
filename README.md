@@ -1173,10 +1173,6 @@ mudança de escopo:
   magnitude do beta (Varejo > Construção > Elétrico > Bancos) é direcional,
   não uma diferença estatisticamente comprovada entre setores. Testamos
   duas hipóteses para explicar isso (seção 15) e ambas foram refutadas.
-- **O teste COPOM vs. dias normais é inconsistente entre especificações**:
-  sem janela, p ≈ 0,025 (seção 3); com janela de ±1 dia útil e Welch, p ≈
-  0,32 (seção 4); com Mann-Whitney, p ≈ 0,81; com teste de permutação, p ≈
-  0,65. O resultado depende bastante de como o "dia de reação" é definido.
 - Amostra de dias de COPOM é pequena (n=16 no período), o que limita o
   poder estatístico de qualquer um desses testes.
 - Dois tickers por setor é uma aproximação — não necessariamente
