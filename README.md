@@ -990,11 +990,15 @@ plotar_retorno_acumulado(df, top_setor)
 
 ## 13) Conclusões
 
-- **O achado mais forte e robusto do projeto é o efeito do COPOM sobre o
-  `Fator_Nivel`**: com a janela de ±1 dia útil, dias de reunião têm um
-  choque de juros muito maior que dias normais — confirmado por três
-  testes independentes (Welch p=0,0003; Mann-Whitney p<0,0001; permutação
-  p=0,0002).
+- O efeito do COPOM sobre o Fator_Nivel é mais frágil do que parece à 
+  primeira vista: no dia exato da reunião (Fator_Nivel bruto, seção 3), o 
+  teste de Welch aponta uma diferença marginalmente significativa (p=0,0247)
+  entre dias de COPOM e dias normais. Mas ao usar a janela de ±1 dia útil — 
+  pensada para capturar reações que só aparecem no pregão seguinte, já que 
+  o COPOM divulga a decisão à noite — o efeito desaparece nos três testes 
+  de robustez (Welch p=0,3221; Mann-Whitney p=0,8066; permutação p=0,6451). 
+  Ou seja, o resultado depende fortemente de como o choque de juros é 
+  medido, e não é robusto o suficiente para ser chamado de achado forte.
 - Existe choque direto com o mercado: todos os setores carregam beta de
   mercado positivo e, em geral, crescente ao longo do ciclo de aperto
   monetário.
