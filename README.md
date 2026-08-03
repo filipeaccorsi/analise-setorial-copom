@@ -1002,12 +1002,10 @@ plotar_retorno_acumulado(df, top_setor)
 - Existe choque direto com o mercado: todos os setores carregam beta de
   mercado positivo e, em geral, crescente ao longo do ciclo de aperto
   monetário.
-- Setores cíclicos como Varejo e Construção têm maior `|Beta_Nivel|` em
-  magnitude (mais expostos à curva de juros, em direção), mas nenhum desses
-  betas é estatisticamente significativo (seção 10), e os testes da seção 15
-  não encontraram uma explicação metodológica para essa falta de
-  significância. Essa diferença entre setores é direcional, não comprovada
-  estatisticamente.
+- Varejo é o setor com maior |Beta_Nivel| em magnitude, seguido por Bancos — mas nenhum 
+  desses betas é estatisticamente significativo (seção 10), e os testes da seção 15 não 
+  encontraram uma explicação metodológica para essa falta de significância. A ordenação 
+  por magnitude é direcional, não comprovada estatisticamente.
 - Setores defensivos, como Elétrico, sustentam betas menores e menor
   volatilidade.
 - O uso de rolling betas é importante para capturar regimes
