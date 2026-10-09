@@ -97,7 +97,7 @@ COPOM_DATES = pd.to_datetime([
 
 ## 2) Dados de juros (Bacen/SGS)
 
-Baixa a Selic efetiva (código 432) e o CDI diário anualizado (código 4389,
+Baixa a Selic efetiva (código 432) e o CDI diário anualizado (código 4391,
 usado como proxy da taxa de juros de curto prazo), e constrói o
 `Fator_Nivel`: a variação diária (primeira diferença) do CDI anualizado.
 Esse é o "fator de risco" de juros usado nas regressões da seção 7 em diante.
@@ -106,7 +106,7 @@ Esse é o "fator de risco" de juros usado nas regressões da seção 7 em diante
 ```python
 def baixar_juros_bacen(start, end):
     """
-    Baixa Selic e CDI diário anualizado (SGS 4389) do Bacen e monta o
+    Baixa Selic e CDI diário anualizado (SGS 4391) do Bacen e monta o
     DataFrame de juros. CDI_Anualizado e o nome histórico da coluna; hoje ela
     guarda o CDI anualizado, não uma taxa pré-fixada (ver seção 2).
 
